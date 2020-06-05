@@ -14,18 +14,13 @@
     "repositories": [{
 	    "type": "vcs",
 	    "url": "https://github.com/narekzilabyan/command-scheduler-bundle.git"
-    }, {
-            "type": "vcs",
-            "url": "https://github.com/narekzilabyan/cron-expression.git"
-    }
-    ],
+    }],
     "require": {
         "php": "^5.5.9 || ^7.0",
         "symfony/symfony": "~2.8|~3.4",
         "sensio/framework-extra-bundle": "^3.0.2|^5.0.0",
         "doctrine/orm": "^2.4.8|^2.5",
-        "doctrine/doctrine-bundle": "^1.4|^1.6",
-	"pmt/cron-expression": "dev-master"
+        "doctrine/doctrine-bundle": "^1.4|^1.6"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.8",
