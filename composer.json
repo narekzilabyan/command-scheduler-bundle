@@ -14,7 +14,11 @@
     "repositories": [{
 	    "type": "vcs",
 	    "url": "https://github.com/narekzilabyan/command-scheduler-bundle.git"
-    }],
+    }, {
+            "type": "vcs",
+            "url": "https://github.com/narekzilabyan/cron-expression.git"
+    }
+    ],
     "require": {
         "php": "^5.5.9 || ^7.0",
         "symfony/symfony": "~2.8|~3.4",
