@@ -1,0 +1,37 @@
+{
+    "name": "pmt/command-scheduler-bundle",
+    "description": "This Symfony bundle will allow you to schedule all your commands just like UNIX crontab(Fork of jmos/command-scheduler-bundle)",
+    "keywords": ["Symfony", "scheduler", "cron", "command", "task"],
+    "homepage": "https://github.com/J-Mose/CommandSchedulerBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julien Guyon",
+            "email": "julienguyon@hotmail.com"
+        }
+    ],
+    "repositories": [{
+	    "type": "vcs",
+	    "url": "https://github.com/narekzilabyan/command-scheduler-bundle.git"
+    }],
+    "require": {
+        "php": "^5.5.9 || ^7.*",
+        "symfony/symfony": "~2.8|~3.*",
+        "sensio/framework-extra-bundle": "^3.0.2|^5.0.0",
+        "doctrine/orm": "^2.4.8|^2.5",
+        "doctrine/doctrine-bundle": "^1.4|^1.6",
+        "mtdowling/cron-expression": "^1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "satooshi/php-coveralls": "~1.0",
+        "doctrine/doctrine-fixtures-bundle": "~2.4",
+        "liip/functional-test-bundle": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "JMose\\CommandSchedulerBundle\\": ""
+        }
+    }
+}
