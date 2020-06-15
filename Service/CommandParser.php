@@ -67,6 +67,8 @@ class CommandParser
      */
     private function extractCommandsFromXML($xml)
     {
+        $xml = strstr($xml, '<?xml'); // Remove junk before <?xml tag
+        
         if ($xml == '') {
             return array();
         }
